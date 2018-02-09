@@ -1,6 +1,7 @@
 
 public class Helper {
-	public static void print(String message) {
-		System.out.println(message);
+	public static void print(String... messages) {
+		for(String msg : messages)
+			System.out.println(msg);
 	}
 }
